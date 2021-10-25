@@ -1,0 +1,51 @@
+package quickcheck;
+
+public class add1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println ("X: " + 25);
+		System.out.println ("Y: " + (15 + 50));
+		System.out.println ("Z: " + 300 + 50);
+
+	}
+
+}
+
+package quickcheck;
+public class addition
+{
+
+   public static void main (String[] args)
+   {
+      System.out.println ("24 and 45 concatenated: " + 24 + 45);
+
+      System.out.println ("24 and 45 added: " + (24 + 45));
+   }
+}
+
+package quickcheck;
+
+
+public class roses
+{
+ 
+   public static void main (String[] args)
+   {
+      System.out.println ("Roses are red,\n\tViolets are blue,\n" +
+         "Sugar is sweet,\n\tBut I have \"commitment issues\",\n\t" +
+         "So I'd rather just be friends\n\tAt this point in our " +
+         "relationship.");
+   }
+}
+
+package quickcheck;
+
+public class thankyou {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("\"Thank you all for coming to my home\ntonight,\" he said mysteriously.");
+	}
+
+}
