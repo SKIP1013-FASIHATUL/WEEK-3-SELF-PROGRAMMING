@@ -1,0 +1,52 @@
+package numericData;
+import java.util.Scanner;
+public class exercise3 {
+	 public static void main(String [] args) {
+		 String name;
+		 int num1,num2,num3,num4,num5,num6,sum;
+		 double bal1,bal2,amount;
+		 char Y;
+		 char N;
+		 
+		 Scanner scanMe = new Scanner(System.in);//scanME is new object for scanner input
+		 
+		 System.out.print("please enter name: ");
+		 name=scanMe.next();
+		 System.out.println("welcome "+name +"!");
+		 
+		 System.out.print("enter your balance: ");
+		 bal1=scanMe.nextDouble();
+		 System.out.print("enter your amount: ");
+		 amount=scanMe.nextDouble();
+		 
+		 bal2=bal1-amount;
+		 System.out.println("your current balance :" + bal2);
+		 System.out.println("do you want to proceed: ");
+		 
+		 Y=scanMe.next().charAt(0);
+		 System.out.println("YES"+Y);
+		 N=scanMe.next().charAt(0);
+		 System.out.println("NO"+N);
+		 
+		 System.out.println("please enter the amount:");
+		 num1= scanMe.nextInt();
+		 System.out.println("amount 1: " +num1);
+		 num2= scanMe.nextInt();
+		 System.out.println("amount 2 : "+num2);
+		 num3= scanMe.nextInt();
+		 System.out.println("amount 3 : "+num3);
+		 num4= scanMe.nextInt();
+		 System.out.println("amount 4 : "+num4);
+		 num5= scanMe.nextInt();
+		 System.out.println("amount 5: "+num5);
+		 num6= scanMe.nextInt();
+		 System.out.println("amount 6: "+num6);
+		 
+		 sum=num1+num2+num3+num4+num5+num6;
+		 System.out.println("\nthe sum : " +sum);
+		 
+		 
+		 
+		
+	 }
+}
