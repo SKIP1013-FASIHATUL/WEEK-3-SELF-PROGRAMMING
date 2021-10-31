@@ -1,0 +1,22 @@
+package quickcheck;
+
+public class qc3 {
+	public static void main(String[] args) {
+  double ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10;
+  
+
+
+ans1=Math.sqrt(12);
+ans2=Math.pow(6,2);
+ans3=Math.exp(7);
+ans4=Math.log(8);
+ans5=Math.sin(90);
+ans6=Math.cos(180);
+ans7=Math.tan(360);
+ans8=Math.round(47.63);
+ans9=Math.min(34,78);
+ans10=Math.max(1,100);
+
+System.out.println("1: " + ans1 +"\n2: "+ans2+"\n3: "+ans3+"\n4: "+ans4+"\n5: "+ans5+"\n6: "+ans6+"\n7: "+ans7+"\n8: "+ans8+"\n9: "+ans9+"\n10: "+ans10);
+}
+}
