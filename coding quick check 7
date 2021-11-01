@@ -1,0 +1,14 @@
+package quickcheck;
+
+public class qc7 {
+	public static void main (String[]args) {
+		int a=3;
+		int b=5;
+		int c=2;
+		double result;
+		
+		result=(-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a); 
+		System.out.println("result: "+result);
+
+	}
+}
