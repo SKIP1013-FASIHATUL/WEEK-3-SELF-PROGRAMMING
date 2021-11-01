@@ -1,0 +1,11 @@
+package quickcheck;
+
+public class qc6 {
+	public static void main (String[]args) {
+	int total = 50;
+	float result = (float) total / 6;
+	
+	System.out.println("result: "+result);
+	
+	}
+}
