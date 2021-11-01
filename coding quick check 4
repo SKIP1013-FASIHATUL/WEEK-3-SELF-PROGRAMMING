@@ -1,0 +1,9 @@
+package quickcheck;
+
+public class qc4 {
+	public static void main(String[]args) {
+	int dollars = 45;
+	double money = dollars;
+	System.out.println(dollars+ "  "+ money);
+	}
+}
